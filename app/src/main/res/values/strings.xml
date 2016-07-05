@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Rites</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">Map</string>
+    <string name="action_logout">Log out</string>
+    <string name="title_activity_help">Help</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_info">Info</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_home_follower">HomeFollower</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zuAlHolifa">Zu Al Holifa</string>
+    <string name="zuAlHolifaINFO">Test</string>
+    <string name="alJuhfa">Al Juhfa</string>
+    <string name="alJuhfaINFO">test</string>
+    <string name="zatEarq">Zat Earq</string>
+    <string name="zatEarqINFO">test</string>
+    <string name="qarnAlmanazil">Qarn Al Manazil</string>
+    <string name="qarnAlmanazilINFO">test</string>
+    <string name="yalamlam">Yalamlam</string>
+    <string name="yalamlamINFO">test</string>
+    <string name="mecca">Mecca</string>
+    <string name="meccaINFO">Test</string>
+    <string name="kappa">Kappa</string>
+    <string name="kappaINFO">Test</string>
+    <string name="alSafaWalMarwa">Al Safa W Al Marwa</string>
+    <string name="alSafaWalMarwaINFO">Test</string>
+    <string name="mina">Mina</string>
+    <string name="minaINFO">Test</string>
+    <string name="arafa">Arafa</string>
+    <string name="arafaINFO">Test</string>
+    <string name="muzdalfa">Muzdalfa</string>
+    <string name="muzdalfaINFO">Test</string>
+    <string name="Ihram">Al Ihram</string>
+    <string name="IhramINFO">إذا وصلت إلى الم مٌات وأردت الإحرام بالعمرة فاغتسل وتنظف وتط بٌ وللم
+أظافرن والبس ملابس الإحرام وه " إزار غٌط الجزء الأسفل من الجسم ورداء
+غٌط الجزء العلوي منه "
+ولا جٌوز لبس المخ طٌ ولاتغط ةٌ الرأس ولا لبس النماب والمفاز نٌ ولا حلك الشعر
+أو لصه ولا الجدال ولا الفسوق كما لا جٌوز الرفث والجماع .
+وإنما بٌاح لن وأنت محرم أن تغتسل وأن تغ رٌ ملابس الإحرام وأن تلبس الساعة
+والخاتم والحزام والنظاره وأن تحمل المتاع على الرأس و سٌتحب الإكثار من التلب ةٌ
+حتى تصل الى الكعبة</string>
+    <string name="arriveMecca">Arriving to Mecca</string>
+    <string name="arriveMeccaINFO">فإذا وصلت مكة فاسترح ف المكان المخصص للإلامه و سٌتحب لن أن تغتسل لبل
+دخول الحرم إن ت سٌر فإذا شاهدت الكعبة فأمسن عن التلب ةٌ ثم أظهر كتفن الأ مٌن
+بلف الرداء من تحت ذراعن الأ مٌن وضعه على كتفن الأ سٌر و سٌمى ذلن
+" بالاضطباع " . وسر حتى تأت بمحاذاة الحجر الأسود فإن استطعت أن تمبله
+فافعل وإلا فلا تمف لتزاحم و كٌف إستلامه بال دٌ إن أمكن فإن لم مٌكن فالإشارة إل هٌ
+بال دٌ ال مٌنى ولل " بسم الله .. الله أكبر "</string>
+    <string name="twafKappa">Twaf El Kappa</string>
+    <string name="twafKappaINFO">ثم إبدأ بالطواف وأسرع ف الثلاثة أشواط الأولى وأكثر من الذكر والدعاء
+والإستغفار ولل " اللهم لنِّعن بما رزلتن وباركل ف هٌ وأخلف عل كل غاببة ل بخ رٌ . وكلما حاذ تٌ الحجر الأسود فأشر إل هٌ ب دٌن ال مٌنى ولل " الله أكبر " .
+تفعل ذلن حتى ت تِم سبعة أشواط واعلم أن الطواف بالكعبة ركن أساس من أركان
+الحج والعمرة فهما لا صٌحان إلا به . فإذا أتممت الطواف سبعة أشواط فمن السنة
+صلاة ركعت نٌ خلف ممام إبراه مٌ تمرأ ف الأولى بعد الفاتحة سورة " الكافرون "
+وف الثان ةٌ سورة " الصمد " . ومن السنة تخف فٌ هات نٌ الركعت نٌ ولا تؤدهما ف طر كٌ ت اٌر الطابف نٌ فهم أحك بالكعبة منن . ثم إنزل إلى زمزم واشرب منها وضع
+من مابها على رأسن ولل " اللهم إن أسألن علما نافعا ورزلا واسعا وشفاءً من كل
+داء "</string>
+    <string name="alsae">alsae</string>
+    <string name="alsaeINFO">وتوجه بعد ذلن إلى جبل الصفا واتل لول الله تعالى " إن الصفا والمروة من شعابر الله  "ولل " أبدأ بما بدأ الله به " فإذا وصلت إلى جبل الصفا فاصعد إلٌه واتجه ناحٌة الكعبة إن تمكنت ولل " الله أكبر .. الله أكبر .. الله أكبر لا إله إلا الله وحده لا شرٌن له له الملن وله الحمد وهو على كل شا لدٌر لا إله إلا الله وحده أنجز وعده ونصر عبده وهزم الأحزاب وحده " ثم إتجه إلى جبل المروة وابدأ فً السعً بٌن الجبلٌن واجتهد فً الذكر والدعاء والثناء علً الله تعالى فإذا وصلت إلى العلم الأخضر وهو لرٌب من الصفا فأسرع الخطى كالجري الهادئ من غٌر أن تؤذي أحدا فإذا التربت ً من العلم الأ ً  اٌ مش ً فامش ً خضر الثان ا حتى ترلى المروة وافعل علٌها كما ٌ عاد فعلت على الصفا ثم اسعى بٌن الصفا والمروة كما فعلت فً الشوط الأول وذلن حتً تتم سبعة أشواط . والسعً بٌن الصفا والمروة سبعة أشواط ركن أساسً من ُ أركان الحج والعمرة ولا ٌصح الحجعلم أ ِ نما ج عل السعً لإلامة ُ ذكر الله تعالى وأ شترط له الطهارة من الحدث كالطواف بالكعبة . ٌ لا ً ن السع -  الحلك والتمصٌر : 5</string>
+    <string name="cutHair">Cutting Hair</string>
+    <string name="cutHairINFO">فإذا أنهٌت سعٌن فأحلك شعرن أو لصره وبذلن تنتهً عمرتن وتحل إحرامن وٌباح  ً ُ لن كل شا مما كان محرما علٌن وأ ِ نت م حرم وعلٌن بعد ذلن المكوث فً مكة حتى  تحرم من مكانن ٌوم التروٌة ٌوم الثامن من ذي الحجة . </string>
+    <string name="goMina">Going to Mina</string>
+    <string name="goMinaINFO"> ً بها الظهر والعصر والمغرب والعشاء لصرا بغٌر جمع . ثم  ً أخرج إلى منى لتصل ِ بت بها وصلً الفجر وأكثر من ذكر الله حتى تطلع الشمس . </string>
+    <string name="goArafa">Going to Arafa</string>
+    <string name="goArafaINFO">صل الظهر والعصر جمعا مع الإمام بمسجد نمره . ثم ادخل عرفة وتأكد من  ً ُ ٌ ٍ حدودها فمسجد نمره بواد ِ . س هو من عرفه ٌ ه ول َنَرُ سمى وادي ع الض هذا الٌوم العظٌم فً ذكر الله تعالى والدعاء فأفضل الدعاء دعاء ٌوم عرفة ومن الأدعٌة المأثوره " لا اله الا الله وحده لا شرٌن له  له الملن وله الحمد وهوعلً كل شا لدٌر " . وأكثر من الإستغفار والتضرع إلى الله تعالى حتى تغرب الشمس واعلم أن  الولوف بعرفة هوأعظم أركان الحج على الإطلاق لمول الرسول صلى الله عليه وسلم " الحج عرفة " </string>
+    <string name="goMuzdalfa">Going to Muzdalfa</string>
+    <string name="goMuzdalfaINFO"> ِ ً فإذا غربت الشمس فسر من عرفة إلى مزدلفة وصلً بها المغرب والعشاء جمعا ُ ولصرا . ثم نَم تلن اللٌلة بمزدلفة وصلً بها الفجر ثم إ نتظر حتى لرب طلوع  الشمس وأكثر من ذكر الله تعالى . </string>
+    <string name="gmaratAkaba">Droping Gmarat Al Akaba</string>
+    <string name="gmaratAkabaINFO">بعد ذلن تحرن إلى منى وإن كنت من أصحاب الأعذار فٌجوز لن أن تنصرف من ِ مزدلفة بعد منتصف اللٌل . بعد وصولن إلى منى توجه إ لى جمرة العمبة وارمها بسبع حصٌات تمول مع كل واحدة  " الله أكبر " واحذر مزاحمة الناس و الإلتتال على الرمً أو السٌر بعنف ضد إتجاه الوفود  .فالممصود من رمً الجمار إلامة  ِ ذكر الله تعالى وارم الجمار إتجاه العلامة المنصوبة فلٌس الممصود لذف ذلن العمود فهو لٌس الشٌطان كما ٌتخٌل بعض الناس فٌرمون الجمرات بعنف وشدة كأنهم  ٌمتلون الشٌطان . </string>
+    <string name="nahrAladahy">Nahr Aladahy</string>
+    <string name="nahrAladahyINFO"> بعد الإنتهاء من رمً الجمار علٌن بنحر الهدي أو الأضاحً . </string>
+    <string name="backMina">Backing to Mina</string>
+    <string name="backMinaINFO"> ُ ِ بعد ذلن عد إ ِ لى منَ ً ى والض بها لٌلتً الحادي عشر والثانً عشر إ ن كنت متعجلا  ِ وإ لا فالض لٌلة الثالث عشر أٌضا واعلم أن المبٌت فً هذه اللٌالً واجب من واجبات الحج التً لا ٌصح التهاون به أو تركه بغٌر عذر لموله تعالى " وأتموا الحج والعمرة لله " . لا تنسى خلال هذه الأٌام رمً الجمرات الثلاثة وٌكون ذلن بعد ً زوال الشمس وٌجوز أ لا لمن كان له عذر . ترمً كل جمرة ٌ الجمرات ل ً ضا رم ٌ بسبع حصٌات وتكبر مع كل حصاة وتدعو الله بعد الانتهاء من الجمرة الأولى . ةَبلِ ه متوجها جهة الم ٌ والثان</string>
+    <string name="twafWadaa">Twaf Al Wadaa</string>
+    <string name="twafWadaaINFO">عد بعد ذلن إلى مكة واجعل آخر عمل لن بها هو طواف الوداع </string>
+    <string name="title_activity_missing">Missing</string>
+    <string name="title_activity_my_requests">MyRequests</string>
+    <string name="title_activity_ltest">LTest</string>
+</resources>
